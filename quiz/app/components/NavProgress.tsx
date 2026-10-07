@@ -9,10 +9,10 @@ export default function NavProgress() {
     <div>
       <nav className="flex items-center gap-6 bg-gray-800 p-4 text-white">
         <span className="font-bold">NavBar</span>
-        <a href="#">Home</a>
-        <a href="#">Features</a>
-        <a href="#">Pricing</a>
-        <a href="#">About</a>
+        <a>Home</a>
+        <a>Features</a>
+        <a>Pricing</a>
+        <a>About</a>
         <input
           type="text"
           placeholder="Search"
@@ -25,10 +25,10 @@ export default function NavProgress() {
           placeholder="Search"
           className="mr-auto rounded bg-white px-2 py-1 text-black"
         />
-        <a href="#">About</a>
-        <a href="#">Pricing</a>
-        <a href="#">Features</a>
-        <a href="#">Home</a>
+        <a>About</a>
+        <a>Pricing</a>
+        <a>Features</a>
+        <a>Home</a>
         <span className="font-bold">NavBar</span>
       </nav>
 
