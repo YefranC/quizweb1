@@ -17,13 +17,14 @@ export default function NavProgress() {
           type="text"
           placeholder="Search"
         />
+        <a> Search </a>
       </nav>
 
-      <nav className="mt-4 flex items-center gap-6 bg-gray-800 p-4 text-white">
+      <nav className="mt-4 flex rotate-180 items-center gap-6 bg-gray-800 p-4 text-white">
+        <a>Search</a>
         <input
           type="text"
           placeholder="Search"
-          className="mr-auto rounded bg-white px-2 py-1 text-black"
         />
         <a>About</a>
         <a>Pricing</a>
