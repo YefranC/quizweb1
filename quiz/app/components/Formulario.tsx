@@ -17,6 +17,7 @@ export default function Formulario() {
     } else {
       setError("");
       setEnviado(true);
+      alert(JSON.stringify({ username, fullname, age }));
     }
   }
 
