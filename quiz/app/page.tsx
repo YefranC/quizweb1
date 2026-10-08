@@ -1,6 +1,7 @@
 import NavProgress from "./components/NavProgress";
 import Formulario from "./components/Formulario";
 import Timer from "./components/Timer";
+import PasswordGenerator from "./components/PasswordGenerator";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <NavProgress />
       <Formulario />
       <Timer/>
+      <PasswordGenerator />
     </main>
   );
 }
